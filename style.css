@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    margin: 0;
+}
+h1{
+    color : red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+}
+.boxes{
+    margin: 48px auto;
+    width : max-content;
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    gap: 20px;
+    box-sizing: border-box;
+}
+.box{
+    height : 100px;
+    background-color:#636161;
+    border: 3px solid aliceblue;
+    cursor: pointer;
+    border-radius: 8px;
+}
